@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Walking_4
+  m_Name: Walking_5
   m_EditorClassIdentifier: 
-  text: I reached the alleyway by the broken street lamp and kept walking to the
-    store.
+  text: 'Wait no. I think I did take the alleyway shortcut. '
   audioClip: {fileID: 0}
-  displayDuration: 3
+  displayDuration: 2
   startDelay: 0
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 945bd29e199369845867d5d33946d556, type: 2}

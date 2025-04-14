@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Walking_4
+  m_Name: Locked Door
   m_EditorClassIdentifier: 
-  text: I reached the alleyway by the broken street lamp and kept walking to the
-    store.
+  text: 'Oh yeah, I do remember that I tried going through the back entrance but
+    the door ended up being locked. '
   audioClip: {fileID: 0}
-  displayDuration: 3
+  displayDuration: 4
   startDelay: 0
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: a3d4c1ad14aa9a348b2e470bd4b1ee67, type: 2}

@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Walking_4
+  m_Name: Store 6
   m_EditorClassIdentifier: 
-  text: I reached the alleyway by the broken street lamp and kept walking to the
-    store.
+  text: I went on my phone for a bit to try and pass the time.
   audioClip: {fileID: 0}
   displayDuration: 3
-  startDelay: 0
+  startDelay: 5
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: e6804a250ea0ea94d8364e42da26d9ad, type: 2}
