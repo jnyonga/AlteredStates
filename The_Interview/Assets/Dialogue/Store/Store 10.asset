@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Store 10
   m_EditorClassIdentifier: 
-  text: After I left I just walked back to my apartment. That's it.
+  text: Afterwards I just walked back to my apartment. That's it.
   audioClip: {fileID: 0}
   displayDuration: 3
   startDelay: 0
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ddfc47e9467cb6e47939db008a811ae8, type: 2}

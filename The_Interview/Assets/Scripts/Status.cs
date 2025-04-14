@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class Status : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private GameManager gameManager;
+    private void Start()
+    {
+        gameManager = Object.FindFirstObjectByType<GameManager>();
+    }
     public void GrabSnack()
     {
-        GameManager.Instance.SetBool("hasSnack", true);
+        gameManager.SetBool("hasSnack", true);
     }
 
     public void Waited()
     {
-        GameManager.Instance.SetBool("hasWaited", true);
+        gameManager.SetBool("hasWaited", true);
     }
 }

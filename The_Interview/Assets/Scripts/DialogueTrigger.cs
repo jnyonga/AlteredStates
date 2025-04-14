@@ -14,11 +14,12 @@ public class DialogueTrigger : MonoBehaviour
 
     private bool hasTriggered = false;
     private NarratorManager narratorManager;
+    private GameManager gameManager;
 
     private void Start()
     {
         narratorManager = Object.FindFirstObjectByType<NarratorManager>();
-
+        gameManager = Object.FindFirstObjectByType<GameManager>();
         if (triggerOnStart)
         {
             Invoke("TriggerDialogue", startDelay);
@@ -40,7 +41,7 @@ public class DialogueTrigger : MonoBehaviour
         // Check if we need to evaluate a flag condition
         if (useFlag && !string.IsNullOrEmpty(flagName))
         {
-            bool flagValue = GameManager.Instance.GetBool(flagName);
+            bool flagValue = gameManager.GetBool(flagName);
 
             // If the flag doesn't match our required state, don't trigger
             if (flagValue != triggerIfFlagIs)

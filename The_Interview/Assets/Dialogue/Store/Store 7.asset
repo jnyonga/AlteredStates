@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Store 7
   m_EditorClassIdentifier: 
-  text: Still waiting
+  text: Waited some more.
   audioClip: {fileID: 0}
   displayDuration: 2
   startDelay: 3

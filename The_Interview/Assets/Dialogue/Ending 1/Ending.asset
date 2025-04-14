@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Store 9
+  m_Name: Ending
   m_EditorClassIdentifier: 
-  text: I eventually decided to just leave.
+  text: So you're saying all you did was walk into the store the leave. You didn't
+    even buy anything?
   audioClip: {fileID: 0}
-  displayDuration: 3
+  displayDuration: 4
   startDelay: 3
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 640047f47083aaa4a9782d7243795aaa, type: 2}

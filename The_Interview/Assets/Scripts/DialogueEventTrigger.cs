@@ -16,10 +16,12 @@ public class DialogueEventTrigger : MonoBehaviour
     [SerializeField] private string conditionBoolName = ""; // Name of the bool in the GameManager
 
     private NarratorManager narratorManager;
+    private GameManager gameManager;
 
     private void Start()
     {
         narratorManager = Object.FindFirstObjectByType<NarratorManager>();
+        gameManager = Object.FindFirstObjectByType<GameManager>();
 
         // Subscribe to the appropriate event based on timing choice
         if (triggerTiming == TriggerTiming.OnDialogueStart)
@@ -41,7 +43,7 @@ public class DialogueEventTrigger : MonoBehaviour
             if (conditionRequired)
             {
                 // Assuming you have a GameManager with a method to check boolean values
-                if (GameManager.Instance.GetBool(conditionBoolName))
+                if (gameManager.GetBool(conditionBoolName))
                 {
                     onDialogueTriggered?.Invoke();
                 }

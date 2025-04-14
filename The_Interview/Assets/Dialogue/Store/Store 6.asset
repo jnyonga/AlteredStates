@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Store 6
   m_EditorClassIdentifier: 
-  text: I went on my phone for a bit to try and pass the time.
+  text: And waited.
   audioClip: {fileID: 0}
   displayDuration: 3
   startDelay: 5

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Store 9
+  m_Name: Ending 1
   m_EditorClassIdentifier: 
-  text: I eventually decided to just leave.
+  text: This whole thing has been a waste of my time.
   audioClip: {fileID: 0}
   displayDuration: 3
-  startDelay: 3
+  startDelay: 0
   endDelay: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ec615f32833d820419edbc89b77c3a29, type: 2}

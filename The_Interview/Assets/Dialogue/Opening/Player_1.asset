@@ -15,6 +15,6 @@ MonoBehaviour:
   text: Well I was on my way to the gas station to grab a late night snack.
   audioClip: {fileID: 0}
   displayDuration: 5
-  startDelay: 0
+  startDelay: 3
   endDelay: 0
   nextDialogue: {fileID: 0}

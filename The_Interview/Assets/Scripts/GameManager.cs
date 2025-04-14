@@ -7,18 +7,18 @@ public class GameManager : MonoBehaviour
 
     private Dictionary<string, bool> gameFlags = new Dictionary<string, bool>();
 
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    //private void Awake()
+    //{
+    //    if (Instance == null)
+    //    {
+    //        Instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
     private void Start()
     {
         SetBool("hasSnack", false);
