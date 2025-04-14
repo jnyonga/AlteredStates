@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
-  m_Name: Locked Door 3
+  m_Name: BadEnd 4
   m_EditorClassIdentifier: 
-  text: 'Detective: It is when it involves breaking and entering.'
+  text: 'Detective: This complicates things. We are gonna have to keep you here for
+    more questioning.'
   audioClip: {fileID: 0}
-  displayDuration: 2
+  displayDuration: 3
   startDelay: 0
   endDelay: 0
-  nextDialogue: {fileID: 11400000, guid: ef61629e463a2e247b622262478fffb5, type: 2}
+  nextDialogue: {fileID: 0}

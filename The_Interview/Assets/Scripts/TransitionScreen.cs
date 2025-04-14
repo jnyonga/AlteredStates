@@ -46,4 +46,18 @@ public class TransitionScreen : MonoBehaviour
         SceneManager.LoadScene(0);
 
     }
+
+    public void StartEnding2()
+    {
+        StartCoroutine(Ending2());
+    }
+    IEnumerator Ending2()
+    {
+        titleText = "ENDING 2";
+        StartCoroutine(DisplayTransitionScreen(titleText));
+        yield return new WaitForSeconds(3f);
+
+        SceneManager.LoadScene(0);
+
+    }
 }

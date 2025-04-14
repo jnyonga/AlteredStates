@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Cop_1
   m_EditorClassIdentifier: 
-  text: Hello, I am dectective Ford. Do you know why you are here?
+  text: 'Detective: Hello, I am dectective Ford. Do you know why you are here?'
   audioClip: {fileID: 0}
   displayDuration: 3.5
   startDelay: 0

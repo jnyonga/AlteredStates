@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Store 1
   m_EditorClassIdentifier: 
-  text: That didn't strike you as odd?
+  text: 'Detective: That didn''t strike you as odd?'
   audioClip: {fileID: 0}
   displayDuration: 2
   startDelay: 0

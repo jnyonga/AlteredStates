@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Store 7
   m_EditorClassIdentifier: 
-  text: Waited some more.
+  text: 'Detective: You didn''t think to check the back room?'
   audioClip: {fileID: 0}
-  displayDuration: 2
+  displayDuration: 3
   startDelay: 3
   endDelay: 0
   nextDialogue: {fileID: 11400000, guid: 66d4080f917de9840a6ac3ec1ace500c, type: 2}

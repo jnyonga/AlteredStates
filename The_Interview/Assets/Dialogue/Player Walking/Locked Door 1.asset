@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Locked Door 1
   m_EditorClassIdentifier: 
-  text: Why did you try going through the back?
+  text: 'Detective: Why did you try going through the back?'
   audioClip: {fileID: 0}
   displayDuration: 3
   startDelay: 0

@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Cop_3
   m_EditorClassIdentifier: 
-  text: We have witnesses placing you near Wilson Street at 11:30 PM last night.
-    Care to explain that?
+  text: 'Detective: What were you doing on the night of the murder?'
   audioClip: {fileID: 0}
   displayDuration: 4
   startDelay: 0.5
-  endDelay: 2
+  endDelay: 0
   nextDialogue: {fileID: 11400000, guid: b62c81ce2c51949ca8d1c3cddc9e73dd, type: 2}

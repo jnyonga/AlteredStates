@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: Cop_2
   m_EditorClassIdentifier: 
-  text: Let's get one thing straight. I'm not interested in stories or excuses. Just
-    the truth.
+  text: 'Detective: Let''s get one thing straight. I''m not interested in stories
+    or excuses. Just the truth.'
   audioClip: {fileID: 0}
   displayDuration: 4
   startDelay: 0.5
