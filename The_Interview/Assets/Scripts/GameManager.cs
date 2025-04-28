@@ -1,4 +1,6 @@
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -9,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject counterTrigger;
 
     private bool grabbed = false;
+    public int index = 0;
 
     private Dictionary<string, bool> gameFlags = new Dictionary<string, bool>();
 
@@ -91,4 +94,15 @@ public class GameManager : MonoBehaviour
         counterTrigger.GetComponentInChildren<MeshRenderer>().enabled = false;
     }
 
+    public void NextLevel()
+    {
+        StartCoroutine(AlleyWay());
+    }
+
+    private IEnumerator AlleyWay()
+    {
+        yield return new WaitForSeconds(1f);
+        
+        SceneManager.LoadScene(index);
+    }
 }
