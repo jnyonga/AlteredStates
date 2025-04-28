@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;   
 using System.Collections;
+using TMPro;
 
 public class ColorLerp : MonoBehaviour
 {
@@ -13,11 +14,12 @@ public class ColorLerp : MonoBehaviour
     [SerializeField] private float appearTime = 5f;
     float startTime;
     float halfDuration;
+    public GameObject titleText;
 
     private void Start()
     {
         targetImage = fadeScreen.GetComponent<Image>();
-
+       
         if(playOnAwake)
         {
             ScreenFlash();
@@ -84,5 +86,15 @@ public class ColorLerp : MonoBehaviour
             fadeScreen.SetActive(false);
         }
 
+    }
+
+    public void EnableText()
+    {
+        titleText.SetActive(true);
+    }
+
+    public void DisableText()
+    {
+        titleText.SetActive(false);
     }
 }

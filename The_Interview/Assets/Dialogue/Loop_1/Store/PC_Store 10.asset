@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: PC_Store 10
   m_EditorClassIdentifier: 
-  text: Then I heared something
+  text: Then I heard something coming from the back room.
   audioClip: {fileID: 0}
   displayDuration: 5
-  startDelay: 10
+  startDelay: 5
   endDelay: 0
   nextDialogue: {fileID: 0}

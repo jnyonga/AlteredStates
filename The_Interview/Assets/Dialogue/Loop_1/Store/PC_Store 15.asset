@@ -18,4 +18,4 @@ MonoBehaviour:
   displayDuration: 5
   startDelay: 0.5
   endDelay: 0
-  nextDialogue: {fileID: 11400000, guid: 6ca67c1fe9a1644bbaddcb4314795f11, type: 2}
+  nextDialogue: {fileID: 0}
