@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
+  m_Name: PC_Walking 8
+  m_EditorClassIdentifier: 
+  text: 'DETECTIVE: Do you remember seeing anybody on the street. Have any feelings
+    of being followed?'
+  audioClip: {fileID: 0}
+  displayDuration: 6
+  startDelay: 0.5
+  endDelay: 0
+  nextDialogue: {fileID: 11400000, guid: f6a91e313919a433997e8bf5bfb0e8e0, type: 2}
