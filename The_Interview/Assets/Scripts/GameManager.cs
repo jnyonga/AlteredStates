@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject snackOBJ;
     public GameObject drinkOBJ;
     public GameObject counterTrigger;
-
+    public float timeTilTransition = 3f;
     private bool grabbed = false;
     public int index = 0;
 
@@ -29,13 +29,16 @@ public class GameManager : MonoBehaviour
     //}
     private void Start()
     {
-        SetBool("hasSnack", false);
-        SetBool("hasDrink", false);
-        SetBool("Wait",false);
+        if (snackOBJ != null && drinkOBJ != null && counterTrigger != null)
+        {
+            SetBool("hasSnack", false);
+            SetBool("hasDrink", false);
+            SetBool("Wait",false);
 
-        snackOBJ.SetActive(false);
-        drinkOBJ.SetActive(false);
-        counterTrigger.SetActive(false);
+            snackOBJ.SetActive(false);
+            drinkOBJ.SetActive(false);
+            counterTrigger.SetActive(false);
+        }
 
     }
 
@@ -104,5 +107,15 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         
         SceneManager.LoadScene(index);
+    }
+
+    public void BackToRoom()
+    {
+        StartCoroutine(Transition());
+    }
+    public IEnumerator Transition()
+    {
+        yield return new WaitForSeconds(timeTilTransition);
+        SceneManager.LoadScene(3);
     }
 }

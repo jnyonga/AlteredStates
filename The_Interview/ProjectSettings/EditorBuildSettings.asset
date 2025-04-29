@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Loop_1.unity
     guid: 18b74d51459768544bc789f8788b4792
   - enabled: 1
+    path: Assets/Scenes/Interrogation Room 2.unity
+    guid: 7c04b22d0649e4dbe93cfb7af196ae71
+  - enabled: 1
+    path: Assets/Scenes/Loop_2.unity
+    guid: de4dd354e1dd14517bef7f793fc9c447
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 245ea27db84cd4a879241145338951b6
   m_configObjects:
