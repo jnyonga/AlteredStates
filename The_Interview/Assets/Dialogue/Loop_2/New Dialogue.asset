@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a3099cf976541bfadaccede05bb39d, type: 3}
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
-  text: 'DETECTIVE: Why were you doing at the park so late?'
+  text: 'DETECTIVE: What were you doing at the park so late?'
   audioClip: {fileID: 0}
-  displayDuration: -1
+  displayDuration: 3
   startDelay: 0
   endDelay: 0
   nextDialogue: {fileID: 11400000, guid: fa76363d3b5e340c19571311ec55bcc3, type: 2}
